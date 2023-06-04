@@ -1,27 +1,61 @@
 .cabecera{
     background-color: #aad224;
-    padding: 50px;
+    padding: 50px 50px 0 50px;
 }
 
+#boton{
+    background-color: #d63d8f;
+    padding: 16px 0 20px;
+    height: 20px;
+    margin-top: 0px;
+    padding-left: 40px;
+}
+
+body{
+    background: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
 .titulo{
     color: white;
-    margin-left: 100px;
+    margin-left: 140px;
     font-size: 70px;
 }
 
 #menu{
     width: 1000px;
-    background-color: #d63d8f;
-    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
     color: white;
     text-transform: uppercase;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
 }
 
 .current_page_item{
     background: #9d66d3;
     text-shadow: #43206b -1px 1px 2px;
-    margin-top: -6px;
-    padding-bottom: 6px;
+    margin-top: -16px;
+    padding-bottom: 14px;
+    position: relative;
+    top: -12px;
+}
+
+.current_page_item a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 34px;
+    padding-top: 18px;
+    padding-right: 18px;
+    line-height: -12px;
+    position: relative;
 }
 
 li{
@@ -33,16 +67,17 @@ li{
 .caja{
     width: 1000px;
     position: relative;
+    margin: 0 auto;
 }
 
 .caja-izquierda{
     width: 640px;
     float: left;
-    border: black 1px solid;
     margin: 0 auto;
 }
 
 .parrafo-izquierdo{
+    float: right;
 }
 
 .caja-derecha{
@@ -50,7 +85,6 @@ li{
     float: right;
     margin: 0px auto;
     padding: 0px 30px 30px 0px;
-    border: black 1px solid;
 }
 
 .post{
@@ -61,28 +95,25 @@ li{
 .titulo-izquierdo{
     padding: 4px 35px 4px 15px;
     font-weight: normal;
-    background-color: #000000;
-    color: #ffffff;
+    color: rgb(62, 166, 210);
+    font-size: 35px;
 }
 
 .parrafo-izquierdo{
     padding: 20px 0px;
+    margin: 0 auto; 
 }
 
-/*.pie{
-    margin: 0 auto;
-    padding: 20px 0px;
-    background: #000000;
-    color: #686767;
-}*/
-
-.listas li{
-    line-height: 40px;
+ul li{
+    line-height: 38px;
+    text-align: left;
+    font-size: 14px;
 }
 
 .titulo-arriba{
     color: #7eba25;
     margin-top: 20px;
+    margin-left: 20px;
     font-size: 35px;
     text-align: center;
 }
@@ -94,6 +125,14 @@ li{
     text-align: center;
 } 
 
+.listas-abajo li{
+    border-bottom: 1px solid #cccccc;
+}
+
 .limpiar{
     clear: both;
 }
+
+
+
+
